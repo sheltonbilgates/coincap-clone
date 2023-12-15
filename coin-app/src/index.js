@@ -4,12 +4,14 @@ import './index.css';
 import { Header } from './Component/Header';
 import reportWebVitals from './reportWebVitals';
 import { Herobanner } from './Component/Herobanner';
+import { Main } from './Component/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Herobanner />
+    <Main />
   </React.StrictMode>
 );
 

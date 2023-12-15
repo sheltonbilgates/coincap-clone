@@ -1,0 +1,19 @@
+.herobanner .container{
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255);
+    height: 180px;
+    width: 100%;
+}
+.grid{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1rem;
+    padding-left: 140px;
+    padding-right: 100px;
+    color: white;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.grid .rate{
+    font-size: 24px;
+    padding-bottom: 25px;
+}
