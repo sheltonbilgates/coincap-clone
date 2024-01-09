@@ -9,7 +9,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import Button from '@mui/material/Button';
 
-// ... (imports)
+
 
 export const Main = () => {
   const [coinData, setCoinData] = useState([]);

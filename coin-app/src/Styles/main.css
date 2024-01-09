@@ -33,7 +33,7 @@
       background-color: inherit;
     }
     50% {
-      background-color: #00ff0050; /* Green with 50% opacity */
+      background-color: #00ff0050; 
     }
     100% {
       background-color: inherit;
@@ -45,7 +45,7 @@
       background-color: inherit;
     }
     50% {
-      background-color: #ff000050; /* Red with 50% opacity */
+      background-color: #ff000050; 
     }
     100% {
       background-color: inherit;
