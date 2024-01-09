@@ -1,13 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Styles/header.css";
 
 export const Header = () => {
-
-  const [isSearchVisible, setIsSearchVisible] = useState(false);
-
-  const handleSearchClick = () => {
-    setIsSearchVisible(!isSearchVisible);
-  };
   return (
     <div>
       <div className="header">
@@ -43,21 +37,9 @@ export const Header = () => {
               </select>
             </li>
             <li>
-            {isSearchVisible ? (
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  id="searchInput"
-                  className="search-input"
-                />
-              ) : (
-                <span
-                  className="material-symbols-outlined clickable"
-                  onClick={handleSearchClick}
-                >
-                  search
-                </span>
-              )}
+              <span className="material-symbols-outlined clickable">
+                search
+              </span>
             </li>
             <li>
               <span class="material-symbols-outlined setting">settings</span>
